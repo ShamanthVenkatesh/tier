@@ -10,7 +10,7 @@ object LoadWeatherData {
    def main(args: Array[String]): Unit = {
      
     if (args.isEmpty || args.length > 2){
-      println("Please provide the arguments as track_events <file-location> and table location <hdfs / s3>")  
+      println("Please provide the arguments as weather-data <file-location> and table location <hdfs / s3>")  
       System.exit(0)
     }
      
